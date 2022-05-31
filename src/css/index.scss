@@ -1,37 +1,11 @@
-@import './normalize/normalize.scss';
-@import './button.css';
+@import "./normalize/normalize.scss";
+@import "./button.css";
+
 .bg {
-	background: $mainBg;
+  background: $mainBg;
+  padding-bottom: 5rem;
 }
-.header {
-	padding-top: 1.25rem;
-	&-nav {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		&__left {
-			display: flex;
-			align-items: center;
-			.header-link {
-				margin-right: 3.75rem;
-				img {
-				}
-			}
-			.header-list {
-				display: flex;
-				align-items: center;
-				gap: 2.5rem;
-				&__item {
-					.nav__link {
-						font-weight: 700;
-						color: $mainColor;
-					}
-				}
-			}
-		}
-		&__right {
-			display: flex;
-			align-items: center;
-		}
-	}
-}
+@import "./components/header.scss";
+// CreateX
+@import "./components/CreateX.scss";
+
