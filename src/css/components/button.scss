@@ -1,9 +1,11 @@
 @import '../css/variable.scss';
+@import "../components/mixin/mixin.scss";
+@import "../media/media.scss";
+
 .btn {
-	padding: 1.25rem 2.5rem;
-	border-radius: 4px;
-	background: $btn;
-	letter-spacing: 0.5px;
-	font-weight: 700;
-	color: $textColor;
+@include btn-mx(4px ,0.5px, 15px);
+@media (max-width:$xxl) {
+padding: 5px 8px;
+font-size: 16px;	
+}
 }

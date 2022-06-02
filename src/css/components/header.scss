@@ -1,5 +1,6 @@
 @import "./button.scss";
 @import "./variable.scss";
+@import "../media/media.scss";
 .header {
     padding-top: 1.25rem;
     &-nav {
@@ -7,6 +8,7 @@
       align-items: center;
       justify-content: space-between;
       margin-bottom: 140px;
+      
       &__left {
         display: flex;
         align-items: center;
@@ -24,6 +26,7 @@
               font-weight: 700;
               color: $mainColor;
             }
+            
           }
         }
       }
@@ -102,6 +105,8 @@
         letter-spacing: 1px;
         color: $secondColor;
         margin-bottom: 60px;
+      }
+      &__right__img{
       }
     }
     &-bottom {
